@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZXHomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    ZXHomeViewController *zxHomeVC = [[ZXHomeViewController alloc] init];
+    UINavigationController *navigationC = [[UINavigationController alloc] initWithRootViewController:zxHomeVC];
+    self.window.rootViewController = navigationC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A10BA702AE44B08FED9BB15 /* libPods-WaterfallLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D5EA2BD8539E814A5C6A60 /* libPods-WaterfallLayout.a */; };
+		C9201E6D211C65DE00ABCEA7 /* ZXWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9201E6C211C65DE00ABCEA7 /* ZXWaterfallLayout.m */; };
 		C99C2FF7211B0C43005E949B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C2FF6211B0C43005E949B /* AppDelegate.m */; };
 		C99C2FFA211B0C43005E949B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C2FF9211B0C43005E949B /* ViewController.m */; };
-		C99C2FFD211B0C43005E949B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C2FFB211B0C43005E949B /* Main.storyboard */; };
 		C99C2FFF211B0C44005E949B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C2FFE211B0C44005E949B /* Assets.xcassets */; };
 		C99C3002211B0C44005E949B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C3000211B0C44005E949B /* LaunchScreen.storyboard */; };
 		C99C3005211B0C44005E949B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C3004211B0C44005E949B /* main.m */; };
+		C99C3016211B110A005E949B /* ZXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C3014211B110A005E949B /* ZXHomeViewController.m */; };
+		C99C3017211B110A005E949B /* ZXHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99C3015211B110A005E949B /* ZXHomeViewController.xib */; };
+		C99C301A211B15DC005E949B /* WaterfallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C3019211B15DC005E949B /* WaterfallCollectionViewCell.m */; };
+		C99C301D211B15F9005E949B /* ShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C301C211B15F9005E949B /* ShopModel.m */; };
+		C99C301F211B1970005E949B /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = C99C301E211B196F005E949B /* shop.plist */; };
+		C9ACBFBD2126F5F50004021A /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACBFBB2126F5F40004021A /* LMHWaterFallLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46D5EA2BD8539E814A5C6A60 /* libPods-WaterfallLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterfallLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F86DB32819FE4C06A8470B /* Pods-WaterfallLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallLayout/Pods-WaterfallLayout.release.xcconfig"; sourceTree = "<group>"; };
+		C9201E6B211C65DE00ABCEA7 /* ZXWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXWaterfallLayout.h; sourceTree = "<group>"; };
+		C9201E6C211C65DE00ABCEA7 /* ZXWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXWaterfallLayout.m; sourceTree = "<group>"; };
 		C99C2FF2211B0C43005E949B /* WaterfallLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99C2FF5211B0C43005E949B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C99C2FF6211B0C43005E949B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C99C2FF8211B0C43005E949B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C99C2FF9211B0C43005E949B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C99C2FFC211B0C43005E949B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C99C2FFE211B0C44005E949B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C99C3001211B0C44005E949B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C99C3003211B0C44005E949B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99C3004211B0C44005E949B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C99C3013211B110A005E949B /* ZXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXHomeViewController.h; sourceTree = "<group>"; };
+		C99C3014211B110A005E949B /* ZXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXHomeViewController.m; sourceTree = "<group>"; };
+		C99C3015211B110A005E949B /* ZXHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXHomeViewController.xib; sourceTree = "<group>"; };
+		C99C3018211B15DC005E949B /* WaterfallCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterfallCollectionViewCell.h; sourceTree = "<group>"; };
+		C99C3019211B15DC005E949B /* WaterfallCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfallCollectionViewCell.m; sourceTree = "<group>"; };
+		C99C301B211B15F9005E949B /* ShopModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopModel.h; sourceTree = "<group>"; };
+		C99C301C211B15F9005E949B /* ShopModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopModel.m; sourceTree = "<group>"; };
+		C99C301E211B196F005E949B /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shop.plist; sourceTree = "<group>"; };
+		C99C3020211B1B36005E949B /* WaterfallLayout.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterfallLayout.pch; sourceTree = "<group>"; };
+		C9ACBFBB2126F5F40004021A /* LMHWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHWaterFallLayout.m; sourceTree = "<group>"; };
+		C9ACBFBC2126F5F50004021A /* LMHWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHWaterFallLayout.h; sourceTree = "<group>"; };
+		E3F233FC7083D6506FEFAC6D /* Pods-WaterfallLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallLayout/Pods-WaterfallLayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A10BA702AE44B08FED9BB15 /* libPods-WaterfallLayout.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D7CF271E5250057D3D24F61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3F233FC7083D6506FEFAC6D /* Pods-WaterfallLayout.debug.xcconfig */,
+				B8F86DB32819FE4C06A8470B /* Pods-WaterfallLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C99C2FE9211B0C43005E949B = {
 			isa = PBXGroup;
 			children = (
 				C99C2FF4211B0C43005E949B /* WaterfallLayout */,
 				C99C2FF3211B0C43005E949B /* Products */,
+				5D7CF271E5250057D3D24F61 /* Pods */,
+				EA71CDA1694BAB2203A10F8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +92,45 @@
 		C99C2FF4211B0C43005E949B /* WaterfallLayout */ = {
 			isa = PBXGroup;
 			children = (
+				C99C3021211B1F20005E949B /* Layout */,
 				C99C2FF5211B0C43005E949B /* AppDelegate.h */,
 				C99C2FF6211B0C43005E949B /* AppDelegate.m */,
+				C99C301B211B15F9005E949B /* ShopModel.h */,
+				C99C301C211B15F9005E949B /* ShopModel.m */,
+				C99C3018211B15DC005E949B /* WaterfallCollectionViewCell.h */,
+				C99C3019211B15DC005E949B /* WaterfallCollectionViewCell.m */,
+				C99C3020211B1B36005E949B /* WaterfallLayout.pch */,
+				C99C301E211B196F005E949B /* shop.plist */,
+				C99C3013211B110A005E949B /* ZXHomeViewController.h */,
+				C99C3014211B110A005E949B /* ZXHomeViewController.m */,
+				C99C3015211B110A005E949B /* ZXHomeViewController.xib */,
 				C99C2FF8211B0C43005E949B /* ViewController.h */,
 				C99C2FF9211B0C43005E949B /* ViewController.m */,
-				C99C2FFB211B0C43005E949B /* Main.storyboard */,
 				C99C2FFE211B0C44005E949B /* Assets.xcassets */,
 				C99C3000211B0C44005E949B /* LaunchScreen.storyboard */,
 				C99C3003211B0C44005E949B /* Info.plist */,
 				C99C3004211B0C44005E949B /* main.m */,
 			);
 			path = WaterfallLayout;
+			sourceTree = "<group>";
+		};
+		C99C3021211B1F20005E949B /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				C9201E6B211C65DE00ABCEA7 /* ZXWaterfallLayout.h */,
+				C9201E6C211C65DE00ABCEA7 /* ZXWaterfallLayout.m */,
+				C9ACBFBC2126F5F50004021A /* LMHWaterFallLayout.h */,
+				C9ACBFBB2126F5F40004021A /* LMHWaterFallLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		EA71CDA1694BAB2203A10F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46D5EA2BD8539E814A5C6A60 /* libPods-WaterfallLayout.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C99C3008211B0C44005E949B /* Build configuration list for PBXNativeTarget "WaterfallLayout" */;
 			buildPhases = (
+				FD4A01DFF8B93B6F80ECF233 /* [CP] Check Pods Manifest.lock */,
 				C99C2FEE211B0C43005E949B /* Sources */,
 				C99C2FEF211B0C43005E949B /* Frameworks */,
 				C99C2FF0211B0C43005E949B /* Resources */,
+				2552F5AAF6C0E20CC3A2E642 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,34 +194,71 @@
 			files = (
 				C99C3002211B0C44005E949B /* LaunchScreen.storyboard in Resources */,
 				C99C2FFF211B0C44005E949B /* Assets.xcassets in Resources */,
-				C99C2FFD211B0C43005E949B /* Main.storyboard in Resources */,
+				C99C301F211B1970005E949B /* shop.plist in Resources */,
+				C99C3017211B110A005E949B /* ZXHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2552F5AAF6C0E20CC3A2E642 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallLayout/Pods-WaterfallLayout-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallLayout/Pods-WaterfallLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4A01DFF8B93B6F80ECF233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterfallLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C99C2FEE211B0C43005E949B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ACBFBD2126F5F50004021A /* LMHWaterFallLayout.m in Sources */,
 				C99C2FFA211B0C43005E949B /* ViewController.m in Sources */,
+				C99C301D211B15F9005E949B /* ShopModel.m in Sources */,
+				C9201E6D211C65DE00ABCEA7 /* ZXWaterfallLayout.m in Sources */,
 				C99C3005211B0C44005E949B /* main.m in Sources */,
+				C99C301A211B15DC005E949B /* WaterfallCollectionViewCell.m in Sources */,
 				C99C2FF7211B0C43005E949B /* AppDelegate.m in Sources */,
+				C99C3016211B110A005E949B /* ZXHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C99C2FFB211B0C43005E949B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C99C2FFC211B0C43005E949B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C99C3000211B0C44005E949B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,10 +382,12 @@
 		};
 		C99C3009211B0C44005E949B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F233FC7083D6506FEFAC6D /* Pods-WaterfallLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667A46C8L;
+				GCC_PREFIX_HEADER = "/Users/mob/Documents/Small target/UIView/WaterfallLayout/WaterfallLayout/WaterfallLayout.pch";
 				INFOPLIST_FILE = WaterfallLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +401,12 @@
 		};
 		C99C300A211B0C44005E949B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F86DB32819FE4C06A8470B /* Pods-WaterfallLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667A46C8L;
+				GCC_PREFIX_HEADER = "/Users/mob/Documents/Small target/UIView/WaterfallLayout/WaterfallLayout/WaterfallLayout.pch";
 				INFOPLIST_FILE = WaterfallLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
